@@ -1,0 +1,65 @@
+git config --global user.name [your name]
+git config --global user.email [youremail@example.com]
+
+git init -[to initalize empty git repoistory]
+
+touch.gitignore -[to create a new file using "touch" cmd]
+
+git add [file-name] -[to add untracked file from unstaging area]
+
+git add -A  -[to add all untracked files]
+
+git rm --cached [filename] -[remove the file from staging area]
+
+git reset [file name] -[to convert from staging to unstaging area] 
+
+git commit -m "[commit name]" -[to save checkpoint]
+
+git status -[just to see the status, what happens on files]
+
+git log -[shows changes]
+
+git log -p -1[no. of commits] -[shows all changes with commit]
+
+
+git checkout [filename] -[ match the file from last commit]
+
+git checkout -f -[match the all files from last commit]
+
+git diff -[it compare working directory from staging area]
+
+git diff --staged -[ it compare staging area from last commit]
+
+git commit -a -m "[commit name]" -[skip from staging area(modified)]
+
+git rm [filename] -[remove the file from staging and hard drive]
+
+git rm --cached [filename] -[remove the file from staging area]
+
+git branch [branch name] -[create a new branch]
+git checkout [branch name] -[switch to branch]
+
+git branch - M [new branch name] -[rename of current branch]
+
+git branch -[shows a branch]
+
+git checkout -b [branch name] -[it will create and switch to new branch]
+
+git merge [branch name] -[merge into the main branch]
+
+git remote add origin [URL.git] -[to add url/remote of the repo]
+
+git remote -v -[to check whether remote is added or not ]
+
+git remote set-url origin [URL.git] -[to set/change url of remote ]
+
+git push origin [branch name] -[to push from local to remote]
+
+git push -u origin [branch name] 
+git push -[it will push to remote without using(git push -u origin master)]
+
+git pull -[to fetch from remote to local]
+
+git clone [UR.git] [folder name] -[cloning into folder from remote]
+
+
